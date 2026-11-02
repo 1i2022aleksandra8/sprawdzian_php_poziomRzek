@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia;
+}
+
+header {
+    background-color: navy;
+    color: white;
+}
+#btn {
+    margin: 20px;
+}
+
+#banner2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+
+    display: flex;
+    justify-content: start;
+}
+
+
+#menu {
+    background-color: navy;
+    padding: 20px;
+}
+
+.formularz_radio {
+    color: silver;
+    margin: 50px;
+}
+
+.formularz_radio:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+}
+.prawy {
+    background-color: azure;
+    height: 550px;
+
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+li h3 {
+    padding: 5px;
+}
+
+.lewy {
+    background-color: azure;
+    height: 550px;
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: azure;
+    height: 550px;
+
+    width: 30%;
+    display: flex;
+    
+}
+
+footer {
+    background-color: navy;
+    color: white;
+}
+
+table {
+    border: 1px navy solid;
+    margin: auto;
+    width: 70%;
+}
+
+td, th {
+    color: black;
+}
+
+tr:hover {
+    background-color: skyblue;
+}
+
+#obraz2 {
+    width: 90%;
+}
